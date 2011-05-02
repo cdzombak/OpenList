@@ -1,0 +1,15 @@
+{
+  "name": "OpenList",
+  "version": "0.1",
+  "description": "Opens a list of URLs or search terms in new tabs.",
+  "background_page": "background.html",
+  "homepage_url": "http://github.com/cdzombak/OpenList",
+  "permissions": [
+    "contextMenus"
+  ]
+  /*"icons": {
+    "16": "icon/icon-16.png",
+    "48": "icon/icon-48.png",
+    "128": "icon/icon-128.png"
+  }*/
+}
