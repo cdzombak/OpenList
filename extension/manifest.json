@@ -6,7 +6,7 @@
   "homepage_url": "http://github.com/cdzombak/OpenList",
   "permissions": [
     "contextMenus"
-  ]
+  ],
   "icons": {
     "16": "icon/icon-16.png",
     "48": "icon/icon-48.png",
