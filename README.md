@@ -6,7 +6,7 @@ It's particularly useful if you have a habit of emailing yourself lists of artic
 
 ## Download/Install
 
-[Download the extension from the Chrome store.](https://chrome.google.com/webstore/detail/nkpjembldfckmdchbdiclhfedcngbgnl). (It's free.)
+[Download the extension from the Chrome store](https://chrome.google.com/webstore/detail/nkpjembldfckmdchbdiclhfedcngbgnl). (It's free.)
 
 ## Issues
 
