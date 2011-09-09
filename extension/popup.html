@@ -1,0 +1,50 @@
+<html>
+<head>
+	<script src="openlist-lib.js"></script>
+	
+	<script>
+		chrome.windows.getCurrent( function(window) {
+			chrome.tabs.getAllInWindow(window.id, function(tabs){
+		
+				if (!tabs.length) return;
+				
+				var listTextArea = document.getElementById("list");
+				
+				for (var i=0; i<tabs.length; i++) {
+					listTextArea.value += tabs[i].url + "\n";
+				}
+				
+				listTextArea.focus();
+				listTextArea.select();
+		
+			});
+		});
+		
+		function openTextAreaList() {
+			openList(document.getElementById("list").value);
+		}
+	</script>
+	
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 5px;
+		}
+		#list {
+			font-family: monospace;
+			width: 400px;
+			height: 200px;
+		}
+		#open {
+			float: right;
+			margin-top: 8px;
+			padding: 3px 10px 5px 10px;
+		}
+	</style>
+</head>
+<body>
+	<textarea id="list"></textarea>
+	<button id="open" title="Open this list of URLs in new tabs" onclick="openTextAreaList()">Open</button>
+</body>
+</html>

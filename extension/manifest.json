@@ -1,12 +1,18 @@
 {
   "name": "OpenList",
-  "version": "0.1",
-  "description": "Opens a list of URLs or search terms in new tabs.",
+  "version": "0.2",
+  "description": "Utilities to create or open lists of tabs.",
   "background_page": "background.html",
   "homepage_url": "http://github.com/cdzombak/OpenList",
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "tabs"
   ],
+  "browser_action": {
+    "default_icon":  "icon/icon-48.png",
+    "default_title": "Tab List",
+    "default_popup": "popup.html"
+  },
   "icons": {
     "16": "icon/icon-16.png",
     "48": "icon/icon-48.png",
