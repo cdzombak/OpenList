@@ -1,6 +1,6 @@
 # OpenList Chrome Extension
 
-OpenList phelps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
+OpenList helps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
 
 With OpenList, you can...
 
