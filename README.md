@@ -1,6 +1,6 @@
 # OpenList Chrome Extension
 
-OpenList provides tools you can use to manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
+OpenList phelps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
 
 With OpenList, you can...
 
@@ -8,7 +8,7 @@ With OpenList, you can...
 * paste a list of URLs (or search terms) into a popup, then open them all in new tabs
 * get a list of all tabs in the current window
 
-The name should probably be changed to somthing like TabsList, but that's a lot of effort.
+The name should probably be changed to something like TabsList, but that's a lot of effort.
 
 ## Download/Install
 
