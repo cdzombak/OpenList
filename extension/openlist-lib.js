@@ -20,10 +20,6 @@ function isProbablyUrl(string) {
 function openList(list) {
 	var strings = list.split(/\r\n|\r|\n/);
 	
-	if (strings.length > 13) {
-		if (!confirm('It looks like this will open about ' + strings.length + ' tabs. This could slow down Chrome.\n\nAre you sure you want to continue?')) return;
-	}
-	
 	for (var i=0; i<strings.length; i++) {
 		// check empty
 		strings[i] = strings[i].trim();
