@@ -20,7 +20,7 @@ Please open an issue on [the GitHub issue tracker for this project](https://gith
 
 ## History
 
-* v0.2 adds list generation capability & popup to enter a lsit from elsewhere; improves URL detection
+* v0.2 adds list generation capability & popup to enter a list from elsewhere; improves URL detection
 * v0.1 initial release
 
 ## Author
