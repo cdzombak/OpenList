@@ -1,9 +1,12 @@
 {
   "name": "OpenList",
-  "version": "0.2.2",
+  "manifest_version": 2,
+  "version": "0.3",
   "description": "Utilities to create and open lists of tabs.",
-  "background_page": "background.html",
-  "homepage_url": "http://github.com/cdzombak/OpenList",
+  "background": {
+    "page": "background.html"
+  },
+  "homepage_url": "https://github.com/cdzombak/OpenList",
   "permissions": [
     "contextMenus",
     "tabs"
