@@ -3,7 +3,6 @@
   "author": "Chris Dzombak <http://chris.dzombak.name>",
   "manifest_version": 2,
   "version": "0.3",
-  "default_locale": "en",
   "description": "Utilities to create and open lists of tabs.",
   "background": {
     "page": "background.html"
