@@ -12,6 +12,8 @@ function initPopup() {
             listTextArea.select();
         });
     });
+
+    document.getElementById("openButton").addEventListener("click", openTextAreaList);
 }
 
 function openTextAreaList() {
@@ -19,4 +21,3 @@ function openTextAreaList() {
 }
 
 window.addEventListener("load", initPopup);
-document.getElementById("openButton").addEventListener("click", openTextAreaList);
