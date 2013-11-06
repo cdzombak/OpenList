@@ -2,7 +2,7 @@
   "name": "OpenList",
   "author": "Chris Dzombak <http://chris.dzombak.name>",
   "manifest_version": 2,
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Utilities to create and open lists of tabs.",
   "background": {
     "page": "background.html",
