@@ -5,7 +5,8 @@
   "version": "0.3.1",
   "description": "Utilities to create and open lists of tabs.",
   "background": {
-    "page": "background.html"
+    "page": "background.html",
+    "persistent": false
   },
   "homepage_url": "https://github.com/cdzombak/OpenList",
   "permissions": [
