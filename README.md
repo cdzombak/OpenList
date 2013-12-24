@@ -20,6 +20,9 @@ Please open an issue on [the GitHub issue tracker for this project](https://gith
 
 ## History
 
+* v0.3.3: remove redundant addition of context menu item
+* v0.3.2: use Chrome event page instead of persistent background page, for reduced resource usage
+* v0.3.1: fix a bug where Open button sometimes didn't work; appearance updates.
 * v0.3: compatibility and security improvements; new icon.
 * v0.2.2 removes warning when opening many tabs; this caused problems in some cases, and Chrome handles it decently well.
 * v0.2 adds list generation capability & popup to enter a list from elsewhere; improves URL detection
