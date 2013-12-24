@@ -9,6 +9,7 @@ function initPopup() {
                 listTextArea.value += tabs[i].url + "\n";
             }
 
+            if (location.search != "?focusHack") location.search = "?focusHack";
             listTextArea.select();
         });
     });
